@@ -1,0 +1,12 @@
+package: github.com/CodeMommy/SoftwareManager
+homepage: http://www.codemommy.com
+license: Apache-2.0
+owners:
+- name: Candison November
+  email: kandisheng@163.com
+  homepage: http://www.kandisheng.com
+- name: Contributors
+  homepage: https://github.com/CodeMommy/SoftwareManager/graphs/contributors
+import:
+- package: github.com/urfave/cli
+  version: 1.20.*

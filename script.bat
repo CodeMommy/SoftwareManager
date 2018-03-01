@@ -7,11 +7,11 @@ goto %1%
 exit
 
 :run
-    go run source/main.go
+    go run source/main/main.go
     exit
 
 :build
-    go build -o build/sm%2%.exe source/main.go
+    go build -o build/sm%2%.exe source/main/main.go
     exit
 
 :dep_init
@@ -32,4 +32,12 @@ exit
 
 :dep_status
     dep status
+    exit
+    
+:glide_install
+    glide install
+    exit
+    
+:glide_update
+    glide update
     exit

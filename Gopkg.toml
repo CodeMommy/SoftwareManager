@@ -6,10 +6,10 @@ ignored = []
   license = "Apache-2.0"
 
 [prune]
-  non-go = false
+  non-go = true
   go-tests = true
   unused-packages = true
 
 [[constraint]]
   name = "github.com/urfave/cli"
-  version = "1.20.0"
+  version = "1.20.*"
