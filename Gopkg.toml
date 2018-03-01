@@ -1,0 +1,15 @@
+required = ["github.com/urfave/cli"]
+ignored = []
+
+[metadata]
+  homepage = "http://www.codemommy.com"
+  license = "Apache-2.0"
+
+[prune]
+  non-go = false
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/urfave/cli"
+  version = "1.20.0"
