@@ -1,5 +1,11 @@
+# IDE
 .idea
-build
+.vscode
+
+# Vendor
 vendor
 Gopkg.lock
 glide.lock
+
+# Other
+build

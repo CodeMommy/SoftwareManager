@@ -41,3 +41,11 @@ exit
 :glide_update
     glide update
     exit
+
+:test
+    go test ./test
+    exit
+    
+:benchmark
+    go test -bench=. ./test
+    exit
